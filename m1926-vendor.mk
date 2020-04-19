@@ -17,3 +17,5 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/meizu/m1926
 
+PRODUCT_COPY_FILES += \
+    vendor/meizu/m1926/proprietary/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger
