@@ -18,4 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/meizu/m1926
 
 PRODUCT_COPY_FILES += \
+    vendor/meizu/m1926/proprietary/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.color@1.0.so \
+    vendor/meizu/m1926/proprietary/product/lib64/libsdm-disp-apis.qti.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsdm-disp-apis.qti.so \
     vendor/meizu/m1926/proprietary/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger
